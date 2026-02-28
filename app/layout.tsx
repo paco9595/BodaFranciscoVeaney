@@ -23,6 +23,14 @@ export const metadata: Metadata = {
     description: "Estás invitado a celebrar con nosotros el día más importante de nuestras vidas. 01 de Mayo del 2027.",
     type: "website",
     locale: "es_MX",
+    images: [
+      {
+        url: "/assets/images/back&wihite.jpeg", // <--- Esta es la imagen que saldrá en WhatsApp
+        width: 1200,
+        height: 630,
+        alt: "Francisco y Veaney",
+      },
+    ],
   },
   icons: {
     icon: "/favicon.ico",
