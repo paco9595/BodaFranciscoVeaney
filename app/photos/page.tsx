@@ -2,6 +2,7 @@
 
 import { useState, useRef } from "react";
 import toast from "react-hot-toast";
+import Link from "next/link";
 
 
 export default function PhotosPage() {
@@ -185,9 +186,19 @@ export default function PhotosPage() {
                     <h1 className="text-4xl md:text-5xl font-light text-gray-900 mb-6 tracking-tight">
                         Comparte tus Recuerdos
                     </h1>
-                    <p className="text-lg text-gray-600 font-light max-w-xl mx-auto">
+                    <p className="text-lg text-gray-600 font-light max-w-xl mx-auto mb-8">
                         Sube tus fotos favoritas de la boda y ayúdanos a capturar cada momento especial. Las imágenes se guardarán en nuestro álbum digital.
                     </p>
+
+                    <Link
+                        href="/photos/galery"
+                        className="inline-flex items-center text-sm px-6 py-2.5 bg-white/50 backdrop-blur-sm border border-[#b59e7a]/30 text-[#b59e7a] hover:bg-[#b59e7a] hover:text-white rounded-full transition-all duration-300 shadow-sm"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4 mr-2">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                        </svg>
+                        Ver Galería Completa
+                    </Link>
                 </div>
 
                 <div
