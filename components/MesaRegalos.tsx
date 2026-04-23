@@ -29,7 +29,7 @@ export default function MesaRegalos() {
                     </a>
                 </div>
 
-                {/* Amazon Card */}
+                {/* Amazon Card
                 <div className="bg-white rounded-2xl shadow-sm border border-stone-100 p-10 flex flex-col items-center text-center transition-all duration-300 hover:shadow-md hover:-translate-y-1">
                     <h3 className="font-serif text-3xl mb-3 text-stone-800 tracking-wide">Amazon</h3>
                     <p className="text-stone-500 font-light mb-8 text-sm uppercase tracking-widest">
@@ -43,7 +43,7 @@ export default function MesaRegalos() {
                     >
                         Ver Lista de Regalos
                     </a>
-                </div>
+                </div> */}
             </div>
         </section>
     );

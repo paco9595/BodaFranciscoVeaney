@@ -1,9 +1,12 @@
 import SaveTheDate from "@/components/SaveTheDate";
 import Galeria from "@/components/Galeria";
 import Ubicacion from "@/components/Ubicacion";
+import AceptarInvitacion from "@/components/AceptarInvitacion";
 import MesaRegalos from "@/components/MesaRegalos";
+import Footer from "@/components/Footer";
 import { notFound } from "next/navigation";
 import { supabase } from "@/lib/supabase";
+import SlotMachine from "@/components/slotMachine";
 
 interface PageProps {
     params: Promise<{
@@ -54,9 +57,18 @@ export default async function InvitationPage({ params }: PageProps) {
     return (
         <div>
             <SaveTheDate />
+            {/* <SlotMachine /> */}
             <Galeria />
             <Ubicacion />
+            <AceptarInvitacion
+                id={invitado.id}
+                fullName={invitado.full_name}
+                partnerName={invitado.partner_name}
+                passes={invitado.passes}
+                confirmed={invitado.confirmed}
+            />
             <MesaRegalos />
+            <Footer />
         </div>
     );
 }

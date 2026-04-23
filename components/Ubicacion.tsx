@@ -35,23 +35,22 @@ export default function Ubicacion() {
                 <div className="flex flex-col items-center">
                     <div className="w-full aspect-4/5 overflow-hidden rounded-t-full mb-8 shadow-sm">
                         <img alt="Jardín de la recepción" className="w-full h-full object-cover bw-photo"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1vvtrHKr2JpN4TXZA5-SjqBQ_c8x_7eZVB89f7fQPWn_diJgB32DGD2EnP_pZ0UIdEIaabWpwBiFMCEEA3fmUV7mHNnBGJDgnpAVbsgPZhrQT23zPX6TYq9OyDfAavbSagMf3bo-VhGDfpz9kdlI8LymL9PZCcE_nLcaWaBstES-UpqfkfcJzSASafZXOMV2XIcLwKoCvhE_6emwWlxyvVeekiR9igKddUZwggTFMYTq7a_dc_Lt7TgvH8nxPP9JX_q5OL2ukeu4C" />
+                            src="/assets/images/jardin.png" />
                     </div>
                     <div className="text-center space-y-4 px-4">
                         <h2 className="font-display text-2xl italic mb-2">Recepción</h2>
                         <div className="space-y-1">
-                            <p className="font-sans font-medium text-lg">Quinta de los Olivos</p>
-                            <p className="font-sans font-light text-slate-500 dark:text-slate-400">19:30 Horas</p>
+                            <p className="font-sans font-medium text-lg">La Viña Jardín de Eventos</p>
+                            <p className="font-sans font-light text-slate-500 dark:text-slate-400">20:00 Horas</p>
                         </div>
                         <div className="py-4">
                             <p className="text-sm font-light text-slate-600 dark:text-slate-400 leading-relaxed max-w-xs mx-auto">
-                                Carr. Nacional Km 245, El Barro.<br />
-                                Monterrey, Nuevo León.
+                                Carr Matehuala Km 8, 78430 <br />
+                                Soledad de Graciano Sánchez, S.L.P.
                             </p>
                         </div>
                         <a className="inline-flex items-center px-6 py-2 border border-sage-green text-sage-green hover:bg-sage-green hover:text-white transition-all duration-300 rounded-full text-sm uppercase tracking-widest"
-                            href="https://maps.google.com" target="_blank" rel="noreferrer">
-                            <span className="material-icons-outlined text-sm mr-2">place</span>
+                            href="https://maps.app.goo.gl/1JyDkAgnnNM722AR9" target="_blank" rel="noreferrer">
                             Ver en Google Maps
                         </a>
                     </div>
