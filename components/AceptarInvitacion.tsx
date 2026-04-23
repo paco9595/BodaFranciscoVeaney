@@ -165,7 +165,7 @@ export default function AceptarInvitacion({
                                 <button
                                     onClick={() => handleConfirm("confirmed")}
                                     disabled={isLoading}
-                                    className="px-8 py-3 bg-sage-green text-white rounded-full font-medium hover:bg-sage-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-md hover:shadow-lg"
+                                    className="px-8 py-3 bg-sage-green  rounded-full font-medium hover:bg-sage-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-md hover:shadow-lg"
                                 >
                                     {isLoading ? "Procesando..." : "Confirmamos nuestra asistencia"}
                                 </button>
@@ -246,7 +246,7 @@ export default function AceptarInvitacion({
                                 <button
                                     onClick={() => handleConfirm("confirmed")}
                                     disabled={isLoading}
-                                    className="px-8 py-3 bg-sage-green text-white rounded-full font-medium hover:bg-sage-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-md hover:shadow-lg"
+                                    className="px-8 py-3 bg-sage-green rounded-full font-medium hover:bg-sage-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-md hover:shadow-lg"
                                 >
                                     {isLoading ? "Procesando..." : "Confirmamos nuestra asistencia"}
                                 </button>
